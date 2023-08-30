@@ -5,14 +5,16 @@
 # 功能简介
 该脚本可以帮助你完成 [西柚英语](https://student.xiyouyingyu.com) 中烦人的单词朗读。
 # 使用方法
-## 第一步：安装python以及相应库
+<video src="example.mp4" position= "absolute" width="100%" height="100%" controls="controls"></video>
+
+## 第一步，安装python以及相应库
 你需要安装的python库有
 ```
 sounddevice
 soundfile
 pyautogui
 ```
-## 第二部，完成相应设置
+## 第二步，完成相应设置
 ### 设置默认录制设备（十分重要！）
 **使用前请将系统默认录制设备改成“立体声混音”，否则无法录音**
 ### 打开 ``` ./config.json ``` ，填写相应配置。
